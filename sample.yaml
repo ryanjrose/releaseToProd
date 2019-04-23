@@ -1,0 +1,10 @@
+---
+/Users/ryan.rose/dev/project/ root@1.2.3.4:/opt/project/:
+  excludeFiles:
+    - 'dump.rdb'
+    - 'nohup.out'
+    - '*.swp'
+    - '.git'
+    - logs
+  postProcess:
+    - "ssh root@1.2.3.4 'chmod 775 /opt/project'"
