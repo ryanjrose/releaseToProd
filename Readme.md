@@ -20,7 +20,7 @@ $ pip install -r requirements.txt
 
 Configuration files are [YAML](http://yaml.org/) files!
 
-By default, releaseToProd.py will look for a file named _config.py_.  
+By default, releaseToProd.py will look for a file named _config.yaml_.  
 You may specify your own file with the --config option.
 
 A config file will contain at a minimum a source path and a destination path.
