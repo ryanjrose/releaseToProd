@@ -73,7 +73,7 @@ But, you can specify any number of source/destination blocks within the same con
 ```
 
 
-By default, releaseToProd.py looks file the file _config.yaml_
+By default, releaseToProd.py looks at the file _config.yaml_
 
 ## Run
 > Note: It's advisable to copy your ssh public key to each destination host's authorize_keys file
